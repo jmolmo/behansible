@@ -1,0 +1,8 @@
+---
+- name: Add bricks to an existing volume
+  hosts: gluster_servers
+  remote_user: root
+  gather_facts: false
+
+  roles:
+    - gluster.cluster
