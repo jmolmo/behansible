@@ -3,7 +3,7 @@
 Execution of Ansible playbooks using Behave.
 --------------------------------------------
 
-My aim is to provide a test framework based in Behave where behavioral test cases over Ansible playbooks will be easy to implement and to be adapted to differente kind of scenarios.
+My aim is to provide a test framework based in Behave where behavioral test cases over Ansible playbooks will be easy to implement and to be adapted to different kind of scenarios.
 
 I'm using:
 
@@ -35,6 +35,8 @@ Feature: Set up firewall rules in a set of nodes (open ports, add services to zo
 
 
 Things to do:
+-------------
+
 - Implement a "servers factory" that will provide a set of clean Vm's/containers
 - Create "Behaves" and different scenarios for test other Ansible playbooks
 - Use of certificates to connect with repos
