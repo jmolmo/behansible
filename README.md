@@ -17,6 +17,22 @@ Things to do:
 
 Install the enviroment:
 ------------------------
- Use Virtual env to deploy the project in your server:
- 
- 
+Note: Until "servers factory" implemented it will be needed to have a set of servers where to execute the playbooks
+Use Virtualenv to deploy the project in your server:
+
+```
+# mkdir behansible_tests
+# virtualenv behansible_tests
+# cd behansible_tests
+# git clone https://github.com/jmolmo/behansible.git
+# source bin/activate
+(behansible_tests)# pip install --upgrade setuptools
+(behansible_tests)# pip install -r behansible/requirements.txt
+```
+
+Execution of tests (servers should be running and accesible from the test server)
+
+```
+(behansible_tests)# cd behansible/features
+(behansible_tests)# behave gluster_firewall.feature
+```code
