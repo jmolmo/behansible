@@ -64,4 +64,4 @@ Execution of tests (servers should be running and accesible from the test server
 ```
 (behansible_tests)# cd behansible/features
 (behansible_tests)# behave gluster_firewall.feature
-```code
+```
